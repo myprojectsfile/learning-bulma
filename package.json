@@ -1,0 +1,31 @@
+{
+  "name": "bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "webpack --mode production",
+    "start": "browser-sync start  --no-notify --server --files \"*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myprojectsfile/bulma.git"
+  },
+  "author": "mohammad ahmadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myprojectsfile/bulma/issues"
+  },
+  "homepage": "https://github.com/myprojectsfile/bulma#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "browser-sync": "^2.26.7",
+    "bulma": "^0.8.0",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
